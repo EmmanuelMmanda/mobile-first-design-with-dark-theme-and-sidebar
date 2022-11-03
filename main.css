@@ -96,7 +96,11 @@ main {
     -webkit-text-fill-color: transparent;
 }
 .playstore{
-    background: -webkit-linear-gradient( 25deg,rgb(27, 132, 188), rgb(9, 133, 167));
+    background: -webkit-linear-gradient( 25deg,rgb(188, 27, 27), rgb(210, 179, 24));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+h2,h1,h3,h4{
+    color: var(--color);
+    display: block;
 }
