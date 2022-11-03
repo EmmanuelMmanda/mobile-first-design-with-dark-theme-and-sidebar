@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="intro.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="album.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>World Music UI Design</title>
 </head>
@@ -49,32 +50,31 @@
                 </div>
                 <nav>
                     <div class="nav-links">
-                        <i class="bx bxl-youtube"></i>
+                        <i class="bx bxl-youtube youtube"></i>
                         <a href="">Youtube</a>
                     </div>
                     <div class="nav-links">
-                        <i class="bx bxl-spotify"></i>
+                        <i class="bx bxl-spotify spotify"></i>
                         <a href="">Spotify</a>
                     </div>
                     <div class="nav-links">
-                        <i class="bx bxl-deezer"></i>
+                        <i class="bx bxl-deezer deezer"></i>
                         <a href="">Deezer</a>
                     </div>
                     <div class="nav-links">
-                        <i class="bx bx-speaker"></i>
+                        <i class="bx bx-speaker speaker" style="color: brown;"></i>
                         <a href="">Vimeo</a>
                     </div>
                     <div class="nav-links">
-                        <i class="bx bx-podcast"></i>
+                        <i class="bx bx-podcast podcast"></i>
                         <a href="">Podcast</a>
                     </div>
                     <div class="hr"> </div>
                     <div class="nav-links">
-                        <i class="bx bx-log-in"></i>
+                        <i class="bx bx-log-in login" style="color: royalblue;"></i>
                         <a href="">Login</a>
                     </div>
                   
-
                 </nav>
             </div>
         </aside>
@@ -97,13 +97,52 @@
                         <a href="#">Naija Hits</a>
                     </li>
                 </ul>
-            </div>
+        </div>
         <main>
-            <div class="cat">
-                    <div class="cat-unit">
-                        Mobile First Design with Dark Mode .
-                    </div>
+            <!-- categories cards -->
+            <sectionv class="cat">
+                <div class="cat-unit">
+                    <a href="" class="cat-url">
+                        <i class="bx bx-podcast podcast" id="podcast"></i>
+                        <label for="podcast">Podcast</label>
+                    </a>
                 </div>
+                <div class="cat-unit">
+                    <a href="" class="cat-url">
+                        <i class="bx bxl-youtube youtube" id="youtube"></i>
+                        <label for="youtube">Youtube</label>
+                    </a>
+                </div>
+                <div class="cat-unit">
+                    <a href="" class="cat-url ">
+                        <i class="bx bxl-deezer deezer" id="deezer"></i>
+                        <label for="deezer">Deezer</label>
+                    </a>
+                </div>
+                <div class="cat-unit">
+                    <a href="" class="cat-url ">
+                        <i class="bx bxl-soundcloud soundcloud" id="soundcloud"></i>
+                        <label for="soundcloud">soundcloud</label>
+                    </a>
+                </div>
+                <div class="cat-unit">
+                    <a href="" class="cat-url ">
+                        <i class="bx bxl-play-store playstore" id="playmuic"></i>
+                        <label for="playmuic">Playmuic</label>
+                    </a>
+                </div>
+                <div class="cat-unit">
+                    <a href="" class="cat-url ">
+                        <i class="bx bxl-apple apple" id="apple"></i>
+                        <label for="apple">AppleMusic</label>
+                    </a>
+                </div>
+            </section>
+            <!-- latest albums -->
+            <section>
+
+            </section>
+
         </main>
     </div>
     <script src="app.js"></script>

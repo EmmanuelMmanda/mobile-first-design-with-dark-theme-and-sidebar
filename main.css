@@ -1,5 +1,5 @@
 main {
-    width: 100vw;
+    width: 100%;
     height: 100%;
 }
 .Topics {
@@ -37,14 +37,66 @@ main {
     color: var(--link-color);
 }
 
+.cat {
+    display: inline-flex;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .cat-unit {
+    width: 90px;
+    height: 80px;
+    background-color: var(--card-color);
+    border-radius: 10px;
+   text-align: center;
+    padding: 5px;
+    
+}
+.cat-unit .cat-url {
+    text-decoration: none;
+    color: var(--color);
+}
+.cat-unit .cat-url>i{
+    font-size: 40px;
     text-align: center;
-    padding-top: 200px;
-    height: 100vh;
-    display: block;
-    flex-direction: column;
-    font-size: 30px;
-    font-weight: bold;
-    background-clip: border-box;
-    color: var(--link-color);
+}
+
+.youtube{
+    background: -webkit-linear-gradient( red,rgb(192, 43, 43));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.podcast {
+    color: palevioletred;
+    background: -webkit-linear-gradient(palevioletred,rgb(192, 42, 92));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.deezer{
+    background: -webkit-linear-gradient( rgb(188, 188, 27),rgb(124, 130, 165), rgb(16, 14, 117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.spotify{
+    color: rgb(43, 109, 43);
+    background: -webkit-linear-gradient(rgb(22, 168, 22),rgb(17, 161, 17));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.soundcloud{
+    color: orange;
+    background: -webkit-linear-gradient(rgb(255, 183, 0),rgb(145, 167, 77));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.playstore{
+    background: -webkit-linear-gradient( 25deg,rgb(27, 132, 188), rgb(9, 133, 167));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
