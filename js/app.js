@@ -8,6 +8,7 @@ const Toggler = document.querySelector('.theme .theme-toggle');
 const icon = document.querySelector('.theme .theme-toggle i');
 const Albums = document.getElementById('album-list');
 
+
 //functions
 const styled = (state) => {
     sidebarMenu.style.display = state;
@@ -75,10 +76,15 @@ const ALBUMS_DATA = [{
 
 const ALBUMS = ALBUMS_DATA.map( (album) => (
     ` <div class="albums" key=${album.id}>
+    <a href="blog-details.html">
     <img loading="lazy" src=${album.img} width="200px" alt="album-image">
+    </a>
     <div>
         <h2>${album.title}</h2>
-        <p>${album.desc}</p>
+        <p>
+        <a href="blog-details.html">
+        ${album.desc} </a>
+        </p>
         <div class="singer">
             <div class="profile">
                 <img loading="lazy" src=${album.img} width="" alt="">
@@ -115,3 +121,6 @@ const More = document.getElementById('more');
 moreDots.addEventListener('click', () => {
     More.classList.toggle('active');
 });
+
+
+

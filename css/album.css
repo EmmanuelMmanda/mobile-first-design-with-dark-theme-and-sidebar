@@ -18,6 +18,7 @@
 }
 .album-list .albums>div{
     padding-left: 3px;
+
 }
 .album-list .albums img{
     width: 100%;
@@ -44,6 +45,7 @@
     position: absolute;
     right: 5px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .albums .singer .profile{

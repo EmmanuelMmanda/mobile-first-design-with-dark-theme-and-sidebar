@@ -1,0 +1,160 @@
+.whatsapp {
+    color: green;
+}
+.badge{
+    color: blue;
+    font-size: 1.4rem;
+}
+.instagram {
+    color: rgb(197, 67, 41);
+}
+
+.facebook {
+    color: rgb(22, 0, 149);
+}
+
+.twitter {
+    color: rgb(34, 179, 219);
+}
+
+.telegram {
+    color: rgb(44, 44, 116);
+}
+
+.copy {
+    color: rgb(90, 73, 73);
+}
+
+.blog-details {
+    margin: 0px 10px;
+    padding: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    color: var(--color);
+}
+
+.blog-details .breadcrumbs {
+    color: var(--light);
+    font-size: .85rem;
+    padding: 5px 0px 20px;
+}
+
+.blog-details .breadcrumbs>span.c::after {
+    content: '';
+}
+
+.blog-details .breadcrumbs>span::after {
+    content: '>';
+    padding: 10px 2px;
+}
+
+.blog-details .thumbnail {
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.blog-details .thumbnail img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.blog-details .details-title>h2 {
+    color: var(--color);
+    margin-bottom: .6rem;
+    line-height: 1;
+}
+
+.blog-details .singer-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8rem;
+}
+
+.blog-details .singer-date .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.blog-details .singer-date .profile .img {
+    display: flex;
+    overflow: hidden;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.blog-details .social-icons {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+    margin: 10px 0px;
+}
+
+.blog-details .social-icons>span {
+    font-size: 1rem;
+    border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    padding: 0px 7px;
+}
+article{
+    margin: 0px 10px;
+    padding: 5px;
+    color: var(--color);
+    line-height: 1.8rem;
+}
+
+article:nth-child(1)::first-letter{
+    font-size: 3rem;
+    font-weight: bolder;
+    float: left;
+    white-space: initial;
+}
+
+code .code{
+    background-color: var(--card-color);
+    border-left: 10px solid purple;
+    padding: 4px;
+}
+
+.quote{
+text-align: center;
+font-style: italic;
+}
+
+.comment-views{
+    background-color: var(--card-color);
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+    width: 250px;
+    border-radius: 40px;
+    color: var(--color);
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+.views,.comment{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2px;
+}
+.views i {
+    color: rgb(215, 81, 23);
+}
+.comment i{
+    color: blue;
+}
+.comment-views  i{
+    font-size: 1.3rem;
+}
